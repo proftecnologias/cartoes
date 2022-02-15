@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+img {
+    max-width: 100%;
+}
+a {
+    color:cadetblue;
+    text-decoration: none;
+}
+.card{
+    display:inline-block;
+    height:50px;
+    width: 95%;
+    background: red;
+    padding:5px;
+    text-align: center;
+    margin: 20px;
+    color:white;
+}
+.article {
+    background: white;
+    box-shadow: 0px 1px 10px 1px #444 ;
+}
+
+.article_image{
+    border: 3px solid white; 
+    box-shadow: 0px 1px 10px 1px #444 ;
+}
+.article_headline {
+    font-size: 2rem;
+    margin: .75rem;
+    text-align:center;
+}
+.article_description{
+    margin:.75rem;
+}
+.article_button {
+    display:block;
+    background-color: #5FB0BE;
+    color:white;
+    text-align: center;
+    padding:1rem;
+    transition: background-color .3s ease-out;
+}
+.article_button:hover{
+    background-color:#3E8D9B ;
+}
